@@ -1,4 +1,4 @@
-my-sass-core
+My Core Sass Files
 ============
 
 Shared scss among my sites

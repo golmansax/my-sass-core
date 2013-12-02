@@ -1,0 +1,17 @@
+// Core only imports variables and mixins
+@import 'my-sass-core/core';
+
+// Compass goodies
+@import 'compass/reset';
+@import 'global_modifiers';
+
+// Site font is inherited from html
+html {
+  font-family: $font-main;
+  font-size: $font-size-text;
+  line-height: 1.5;
+}
+
+body {
+  margin: 1em;
+}
