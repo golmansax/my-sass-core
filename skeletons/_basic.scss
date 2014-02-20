@@ -6,7 +6,7 @@
 
 // Site font is inherited from html
 html {
-  font-family: $font-main;
+  @include font-pt-sans;
   font-size: $font-size-text;
   line-height: 1.5;
 }

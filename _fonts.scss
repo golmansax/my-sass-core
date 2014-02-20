@@ -1,5 +1,9 @@
 // Fonts
-$font-main: sans-serif;
+
+@mixin font-pt-sans {
+  @import url(http://fonts.googleapis.com/css?family=PT+Sans);
+  font-family: 'PT Sans', sans-serif;
+}
 
 // Sizes
 $font-size-header: 24px;
