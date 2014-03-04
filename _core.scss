@@ -1,6 +1,9 @@
 // @author holman
 //
-// Include core sass here
+// Include Sass mixins and variables
+
+// Compass goodies
+@import 'compass/css3';
 
 @import 'my-sass-core/borders';
 @import 'my-sass-core/fonts';
